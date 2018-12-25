@@ -1,0 +1,12 @@
+[Unit]
+Description=Projector remote
+
+[Service]
+Type=simple
+ExecStart=/home/pi/envs/projector-remote/bin/python3.7 -m ProjectorRemote
+Restart=always
+RestartSec=5
+User=pi
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,1541 @@
+{
+  "Audio control": [
+    {
+      "ASCII": "mute=on", 
+      "Function": "Audio control", 
+      "Operation": "Mute On", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "mute=off", 
+      "Function": "Audio control", 
+      "Operation": "Mute Off", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "mute=?", 
+      "Function": "Audio control", 
+      "Operation": "Mute Status", 
+      "Support": "NO", 
+      "Type": "Read"
+    }, 
+    {
+      "ASCII": "vol=+", 
+      "Function": "Audio control", 
+      "Operation": "Volume +", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "vol=-", 
+      "Function": "Audio control", 
+      "Operation": "Volume -", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "vol=?", 
+      "Function": "Audio control", 
+      "Operation": "Volume Status", 
+      "Support": "NO", 
+      "Type": "Read"
+    }, 
+    {
+      "ASCII": "micvol=+", 
+      "Function": "Audio control", 
+      "Operation": "Mic. Volume +", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "micvol=-", 
+      "Function": "Audio control", 
+      "Operation": "Mic. Volume -", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "micvol=?", 
+      "Function": "Audio control", 
+      "Operation": "Mic. Volume Status", 
+      "Support": "NO", 
+      "Type": "Read"
+    }
+  ], 
+  "Audio source select": [
+    {
+      "ASCII": "audiosour=off", 
+      "Function": "Audio source select", 
+      "Operation": "Audio pass Through off", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "audiosour=RGB", 
+      "Function": "Audio source select", 
+      "Operation": "Audio-Computer1", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "audiosour=RGB2", 
+      "Function": "Audio source select", 
+      "Operation": "Audio-Computer2", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "audiosour=vid", 
+      "Function": "Audio source select", 
+      "Operation": "Audio-Video/S-Video", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "audiosour=ypbr", 
+      "Function": "Audio source select", 
+      "Operation": "Audio-Component", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "audiosour=hdmi", 
+      "Function": "Audio source select", 
+      "Operation": "Audio-HDMI", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "audiosour=hdmi2", 
+      "Function": "Audio source select", 
+      "Operation": "Audio-HDMI2", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "audiosour=?", 
+      "Function": "Audio source select", 
+      "Operation": "Audio pass Status", 
+      "Support": "NO", 
+      "Type": "Read"
+    }
+  ], 
+  "Baud rate": [
+    {
+      "ASCII": "baud=2400", 
+      "Function": "Baud rate", 
+      "Operation": "2400", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "baud=4800", 
+      "Function": "Baud rate", 
+      "Operation": "4800", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "baud=9600", 
+      "Function": "Baud rate", 
+      "Operation": "9600", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "baud=14400", 
+      "Function": "Baud rate", 
+      "Operation": "14400", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "baud=19200", 
+      "Function": "Baud rate", 
+      "Operation": "19200", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "baud=38400", 
+      "Function": "Baud rate", 
+      "Operation": "38400", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "baud=57600", 
+      "Function": "Baud rate", 
+      "Operation": "57600", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "baud=115200", 
+      "Function": "Baud rate", 
+      "Operation": "115200", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "baud=?", 
+      "Function": "Baud rate", 
+      "Operation": "Current Baud Rate", 
+      "Support": "YES", 
+      "Type": "Read"
+    }
+  ], 
+  "Lamp control": [
+    {
+      "ASCII": "ltim=?", 
+      "Function": "Lamp control", 
+      "Operation": "Lamp Hour", 
+      "Support": "YES", 
+      "Type": "Read"
+    }, 
+    {
+      "ASCII": "ltim2=?", 
+      "Function": "Lamp control", 
+      "Operation": "Lamp2 Hour", 
+      "Support": "YES", 
+      "Type": "Read"
+    }, 
+    {
+      "ASCII": "ltim=reset", 
+      "Function": "Lamp control", 
+      "Operation": "Lamp hour reset", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "ltim2=reset", 
+      "Function": "Lamp control", 
+      "Operation": "Lamp2 hour reset", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "lampm=lnor", 
+      "Function": "Lamp control", 
+      "Operation": "Normal mode", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "lampm=eco", 
+      "Function": "Lamp control", 
+      "Operation": "Eco mode", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "lammd=dual", 
+      "Function": "Lamp control", 
+      "Operation": "Dual lamp", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "lammd=num1l", 
+      "Function": "Lamp control", 
+      "Operation": "number 1 lamp", 
+      "Support": "YES", 
+      "Type": "Lamp Control"
+    }, 
+    {
+      "ASCII": "lammd=num2", 
+      "Function": "Lamp control", 
+      "Operation": "number 2 lamp", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "lammd=single", 
+      "Function": "Lamp control", 
+      "Operation": "Single lamp (minimum)", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "lammd=?", 
+      "Function": "Lamp control", 
+      "Operation": "Current Lamp status", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "lampm=seco", 
+      "Function": "Lamp control", 
+      "Operation": "Smart Eco mode", 
+      "Support": "NO", 
+      "Type": "Read"
+    }, 
+    {
+      "ASCII": "lampm=seco2", 
+      "Function": "Lamp control", 
+      "Operation": "Smart Eco mode(LampCare)", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "lampm=seco3", 
+      "Function": "Lamp control", 
+      "Operation": "Smart Eco mode(IumenCare)", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": " lampm =dualbr", 
+      "Function": "Lamp control", 
+      "Operation": "Dual Brightest", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": " lampm =dualre", 
+      "Function": "Lamp control", 
+      "Operation": "Dual Reliable", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": " lampm =single", 
+      "Function": "Lamp control", 
+      "Operation": "Single Alternative", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": " lampm =singleeco", 
+      "Function": "Lamp control", 
+      "Operation": "Single Alternative Eco", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "lampm=?", 
+      "Function": "Lamp control", 
+      "Operation": "Lamp Mode Status", 
+      "Support": "YES", 
+      "Type": "Read"
+    }
+  ], 
+  "Miscellaneous": [
+    {
+      "ASCII": "modelname=?", 
+      "Function": "Miscellaneous", 
+      "Operation": "Model Name", 
+      "Support": "YES", 
+      "Type": "Read"
+    }, 
+    {
+      "ASCII": "blank=on", 
+      "Function": "Miscellaneous", 
+      "Operation": "Blank On", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "blank=off", 
+      "Function": "Miscellaneous", 
+      "Operation": "Blank Off", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "blank=?", 
+      "Function": "Miscellaneous", 
+      "Operation": "Blank Status", 
+      "Support": "YES", 
+      "Type": "Read"
+    }, 
+    {
+      "ASCII": "freeze=on", 
+      "Function": "Miscellaneous", 
+      "Operation": "Freeze On", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "freeze=off", 
+      "Function": "Miscellaneous", 
+      "Operation": "Freeze Off", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "freeze=?", 
+      "Function": "Miscellaneous", 
+      "Operation": "Freeze Status", 
+      "Support": "YES", 
+      "Type": "Read"
+    }, 
+    {
+      "ASCII": "menu=on", 
+      "Function": "Miscellaneous", 
+      "Operation": "Menu On", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "menu=off", 
+      "Function": "Miscellaneous", 
+      "Operation": "Menu Off", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "menu=?", 
+      "Function": "Miscellaneous", 
+      "Operation": "Menu Status", 
+      "Support": "YES", 
+      "Type": "Read"
+    }, 
+    {
+      "ASCII": "up", 
+      "Function": "Miscellaneous", 
+      "Operation": "Up", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "down", 
+      "Function": "Miscellaneous", 
+      "Operation": "Down", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "right", 
+      "Function": "Miscellaneous", 
+      "Operation": "Right", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "left", 
+      "Function": "Miscellaneous", 
+      "Operation": "Left", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "enter", 
+      "Function": "Miscellaneous", 
+      "Operation": "Enter", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "3d=off", 
+      "Function": "Miscellaneous", 
+      "Operation": "3D Sync Off", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "3d=auto", 
+      "Function": "Miscellaneous", 
+      "Operation": "3D Auto", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "3d=tb", 
+      "Function": "Miscellaneous", 
+      "Operation": "3D Sync Top Bottom", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "3d=fs", 
+      "Function": "Miscellaneous", 
+      "Operation": "3D Sync Frame Sequential", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "3d=fp", 
+      "Function": "Miscellaneous", 
+      "Operation": "3D Frame packing", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "3d=sbs", 
+      "Function": "Miscellaneous", 
+      "Operation": "3D Side by side", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "3d=da", 
+      "Function": "Miscellaneous", 
+      "Operation": "3D inverter disable", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "3d=iv", 
+      "Function": "Miscellaneous", 
+      "Operation": "3D inverter", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "3d=2d3d", 
+      "Function": "Miscellaneous", 
+      "Operation": "2D to 3D", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "3d=nvidia", 
+      "Function": "Miscellaneous", 
+      "Operation": "3D nVIDIA", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "3d=?", 
+      "Function": "Miscellaneous", 
+      "Operation": "3D Sync Status", 
+      "Support": "YES", 
+      "Type": "Read"
+    }, 
+    {
+      "ASCII": "rrset=0", 
+      "Function": "Miscellaneous", 
+      "Operation": "Remote Set", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "rrset=?", 
+      "Function": "Miscellaneous", 
+      "Operation": "Remote Set Status", 
+      "Support": "NO", 
+      "Type": "Read"
+    }, 
+    {
+      "ASCII": "rr=fr", 
+      "Function": "Miscellaneous", 
+      "Operation": "Remote Receiver-front+rear", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "rr=f", 
+      "Function": "Miscellaneous", 
+      "Operation": "Remote Receiver-front", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "rr=r", 
+      "Function": "Miscellaneous", 
+      "Operation": "Remote Receiver-rear", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "rr=t", 
+      "Function": "Miscellaneous", 
+      "Operation": "Remote Receiver-top", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "rr=tf", 
+      "Function": "Miscellaneous", 
+      "Operation": "Remote Receiver-top+front", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "rr=tr", 
+      "Function": "Miscellaneous", 
+      "Operation": "Remote Receiver-top+rear", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "rr=?", 
+      "Function": "Miscellaneous", 
+      "Operation": "Remote Receiver Status", 
+      "Support": "NO", 
+      "Type": "Read"
+    }, 
+    {
+      "ASCII": "ins=on", 
+      "Function": "Miscellaneous", 
+      "Operation": "Instant On-on", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "ins=off", 
+      "Function": "Miscellaneous", 
+      "Operation": "Instant On-off", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "ins=?", 
+      "Function": "Miscellaneous", 
+      "Operation": "Instant On Status", 
+      "Support": "NO", 
+      "Type": "Read"
+    }, 
+    {
+      "ASCII": "lpsaver=on", 
+      "Function": "Miscellaneous", 
+      "Operation": "Lamp Saver Mode-on", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "lpsaver=off", 
+      "Function": "Miscellaneous", 
+      "Operation": "Lamp Saver Mode-off", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "lpsaver=?", 
+      "Function": "Miscellaneous", 
+      "Operation": "Lamp Saver Mode Status", 
+      "Support": "NO", 
+      "Type": "Read"
+    }, 
+    {
+      "ASCII": "prjlogincode=on", 
+      "Function": "Miscellaneous", 
+      "Operation": "Projection Log In Code on", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "prjlogincode=off", 
+      "Function": "Miscellaneous", 
+      "Operation": "Projection Log In Code off", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "prjlogincode=?", 
+      "Function": "Miscellaneous", 
+      "Operation": "Projection Log In Code Status", 
+      "Support": "NO", 
+      "Type": "Read"
+    }, 
+    {
+      "ASCII": "broadcasting=on", 
+      "Function": "Miscellaneous", 
+      "Operation": "Broadcasting on", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "broadcasting=off", 
+      "Function": "Miscellaneous", 
+      "Operation": "Broadcasting off", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "broadcasting=", 
+      "Function": "Miscellaneous", 
+      "Operation": "Broadcasting Status", 
+      "Support": "NO", 
+      "Type": "Read"
+    }, 
+    {
+      "ASCII": "amxdd=on", 
+      "Function": "Miscellaneous", 
+      "Operation": "AMX Device Discovery-on", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "amxdd=off", 
+      "Function": "Miscellaneous", 
+      "Operation": "AMX Device Discovery-off", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "amxdd=?", 
+      "Function": "Miscellaneous", 
+      "Operation": "AMX Device Discovery Status", 
+      "Support": "NO", 
+      "Type": "Read"
+    }, 
+    {
+      "ASCII": "macaddr=?", 
+      "Function": "Miscellaneous", 
+      "Operation": "Mac Address", 
+      "Support": "NO", 
+      "Type": "Read"
+    }, 
+    {
+      "ASCII": "trigger=on", 
+      "Function": "Miscellaneous", 
+      "Operation": "Trigger on", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "trigger=off", 
+      "Function": "Miscellaneous", 
+      "Operation": "Trigger off", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "trigger=?", 
+      "Function": "Miscellaneous", 
+      "Operation": "Trigger status", 
+      "Support": "YES", 
+      "Type": "Read"
+    }, 
+    {
+      "ASCII": "Highaltitude=on", 
+      "Function": "Miscellaneous", 
+      "Operation": "High Altitude mode on", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "Highaltitude=off", 
+      "Function": "Miscellaneous", 
+      "Operation": "High Altitude mode off", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "Highaltitude=?", 
+      "Function": "Miscellaneous", 
+      "Operation": "High Altitude mode status", 
+      "Support": "YES", 
+      "Type": "Read"
+    }, 
+    {
+      "ASCII": "error=report", 
+      "Function": "Miscellaneous", 
+      "Operation": "Error Code", 
+      "Support": "YES", 
+      "Type": "Read"
+    }, 
+    {
+      "ASCII": "99N123", 
+      "Function": "Miscellaneous", 
+      "Operation": "Serial Number code1", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "99N000", 
+      "Function": "Miscellaneous", 
+      "Operation": "Serial Number Query", 
+      "Support": "NO", 
+      "Type": "Read"
+    }, 
+    {
+      "ASCII": "lst=up", 
+      "Function": "Miscellaneous", 
+      "Operation": "Lens Shift Up", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "lst=down", 
+      "Function": "Miscellaneous", 
+      "Operation": "Lens Shift Down", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "lst=left", 
+      "Function": "Miscellaneous", 
+      "Operation": "Lens Shift Left", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "lst=right", 
+      "Function": "Miscellaneous", 
+      "Operation": "Lens Shift Right", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "focus=+", 
+      "Function": "Miscellaneous", 
+      "Operation": "Focus Plus", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "focus=-", 
+      "Function": "Miscellaneous", 
+      "Operation": "Focus Minus", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "zoom=+", 
+      "Function": "Miscellaneous", 
+      "Operation": "Zoom Plus", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "zoom=-", 
+      "Function": "Miscellaneous", 
+      "Operation": "Zoom Minus", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "keyst=-", 
+      "Function": "Miscellaneous", 
+      "Operation": "Keystone-Vertical Decrease", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "keyst=+", 
+      "Function": "Miscellaneous", 
+      "Operation": "Keystone-Vertical Increase", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "keyst=?", 
+      "Function": "Miscellaneous", 
+      "Operation": "Keystone-Vertical Status", 
+      "Support": "YES", 
+      "Type": "Read"
+    }
+  ], 
+  "Operation setting": [
+    {
+      "ASCII": "pp=FT", 
+      "Function": "Operation setting", 
+      "Operation": "Projector Position-Front Table", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "pp=RE", 
+      "Function": "Operation setting", 
+      "Operation": "Projector Position-Rear Table", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "pp=RC", 
+      "Function": "Operation setting", 
+      "Operation": "Projector Position-Rear Ceiling", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "pp=FC", 
+      "Function": "Operation setting", 
+      "Operation": "Projector Position-Front Ceiling", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "pp=UF", 
+      "Function": "Operation setting", 
+      "Operation": "Projector Position-up Front", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "pp=DF", 
+      "Function": "Operation setting", 
+      "Operation": "Projector Position-down Front", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "pp=?", 
+      "Function": "Operation setting", 
+      "Operation": "Projector Position Status", 
+      "Support": "YES", 
+      "Type": "Read"
+    }, 
+    {
+      "ASCII": "QAS=on", 
+      "Function": "Operation setting", 
+      "Operation": "Quick auto search on", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "QAS=off", 
+      "Function": "Operation setting", 
+      "Operation": "Quick auto search off", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "QAS=?", 
+      "Function": "Operation setting", 
+      "Operation": "Quick auto search status", 
+      "Support": "YES", 
+      "Type": "Read"
+    }, 
+    {
+      "ASCII": "directpower=on", 
+      "Function": "Operation setting", 
+      "Operation": "Direct Power On-on", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "directpower=off", 
+      "Function": "Operation setting", 
+      "Operation": "Direct Power On-off", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "directpower=?", 
+      "Function": "Operation setting", 
+      "Operation": "Direct Power On-Status", 
+      "Support": "YES", 
+      "Type": "Read"
+    }, 
+    {
+      "ASCII": "autopower=on", 
+      "Function": "Operation setting", 
+      "Operation": "Signal Power On-on", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "autopower=off", 
+      "Function": "Operation setting", 
+      "Operation": "Signal Power On-off", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "autopower=?", 
+      "Function": "Operation setting", 
+      "Operation": "Signal Power On-Status", 
+      "Support": "NO", 
+      "Type": "Read"
+    }, 
+    {
+      "ASCII": "standbynet=standard", 
+      "Function": "Operation setting", 
+      "Operation": "Standby Settings-Standard", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "standbynet=eco", 
+      "Function": "Operation setting", 
+      "Operation": "Standby Settings-Eco", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "standbynet=network", 
+      "Function": "Operation setting", 
+      "Operation": "Standby Settings-Network", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "standbynet=on", 
+      "Function": "Operation setting", 
+      "Operation": "Standby Settings-Network on", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "standbynet=off", 
+      "Function": "Operation setting", 
+      "Operation": "Standby Settings-Network off", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "standbynet=?", 
+      "Function": "Operation setting", 
+      "Operation": "Standby Settings-Network Status", 
+      "Support": "YES", 
+      "Type": "Read"
+    }, 
+    {
+      "ASCII": "standbymic=on", 
+      "Function": "Operation setting", 
+      "Operation": "Standby Settings-Microphone on", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "standbymic=off", 
+      "Function": "Operation setting", 
+      "Operation": "Standby Settings-Microphone off", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "standbymic=?", 
+      "Function": "Operation setting", 
+      "Operation": "Standby Settings-Microphone Status", 
+      "Support": "NO", 
+      "Type": "Read"
+    }, 
+    {
+      "ASCII": "standbymnt=on", 
+      "Function": "Operation setting", 
+      "Operation": "Standby Settings-Monitor Out on", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "standbymnt=off", 
+      "Function": "Operation setting", 
+      "Operation": "Standby Settings-Monitor Out off", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "standbymnt=?", 
+      "Function": "Operation setting", 
+      "Operation": "Standby Settings-Monitor Out Status", 
+      "Support": "NO", 
+      "Type": "Read"
+    }
+  ], 
+  "Picture mode": [
+    {
+      "ASCII": "appmod=dynamic", 
+      "Function": "Picture mode", 
+      "Operation": "Dynamic", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "appmod=preset", 
+      "Function": "Picture mode", 
+      "Operation": "Presentation", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "appmod=srgb", 
+      "Function": "Picture mode", 
+      "Operation": "sRGB", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "appmod=bright", 
+      "Function": "Picture mode", 
+      "Operation": "Bright", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "appmod=livingroom", 
+      "Function": "Picture mode", 
+      "Operation": "Living Room", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "appmod=game", 
+      "Function": "Picture mode", 
+      "Operation": "Game", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "appmod=cine", 
+      "Function": "Picture mode", 
+      "Operation": "Cinema", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "appmod=std", 
+      "Function": "Picture mode", 
+      "Operation": "Standard", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "appmod=user1", 
+      "Function": "Picture mode", 
+      "Operation": "User1", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "appmod=user2", 
+      "Function": "Picture mode", 
+      "Operation": "User2", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "appmod=user3", 
+      "Function": "Picture mode", 
+      "Operation": "User3", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "appmod=isfday", 
+      "Function": "Picture mode", 
+      "Operation": "ISF Day", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "appmod=isfnight", 
+      "Function": "Picture mode", 
+      "Operation": "ISF Night", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "appmod=threed", 
+      "Function": "Picture mode", 
+      "Operation": "3D", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "appmod=?", 
+      "Function": "Picture mode", 
+      "Operation": "Picture Mode", 
+      "Support": "YES", 
+      "Type": "Read"
+    }
+  ], 
+  "Picture setting": [
+    {
+      "ASCII": "con=+", 
+      "Function": "Picture setting", 
+      "Operation": "Contrast +", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "con=-", 
+      "Function": "Picture setting", 
+      "Operation": "Contrast -", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "con=?", 
+      "Function": "Picture setting", 
+      "Operation": "Contrast value", 
+      "Support": "YES", 
+      "Type": "Read"
+    }, 
+    {
+      "ASCII": "bri=+", 
+      "Function": "Picture setting", 
+      "Operation": "Brightness +", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "bri=-", 
+      "Function": "Picture setting", 
+      "Operation": "Brightness -", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "bri=?", 
+      "Function": "Picture setting", 
+      "Operation": "Brightness value", 
+      "Support": "YES", 
+      "Type": "Read"
+    }, 
+    {
+      "ASCII": "color=+", 
+      "Function": "Picture setting", 
+      "Operation": "Color +", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "color=-", 
+      "Function": "Picture setting", 
+      "Operation": "Color -", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "color=?", 
+      "Function": "Picture setting", 
+      "Operation": "Color value", 
+      "Support": "YES", 
+      "Type": "Read"
+    }, 
+    {
+      "ASCII": "sharp=+", 
+      "Function": "Picture setting", 
+      "Operation": "Sharpness +", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "sharp=-", 
+      "Function": "Picture setting", 
+      "Operation": "Sharpness -", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "sharp=?", 
+      "Function": "Picture setting", 
+      "Operation": "Sharpness value", 
+      "Support": "YES", 
+      "Type": "Read"
+    }, 
+    {
+      "ASCII": "ct=warmer", 
+      "Function": "Picture setting", 
+      "Operation": "Color Temperature-Warmer", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "ct=warm", 
+      "Function": "Picture setting", 
+      "Operation": "Color Temperature-Warm", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "ct=normal", 
+      "Function": "Picture setting", 
+      "Operation": "Color Temperature-Normal", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "ct=cool", 
+      "Function": "Picture setting", 
+      "Operation": "Color Temperature-Cool", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "ct=cooler", 
+      "Function": "Picture setting", 
+      "Operation": "Color Temperature-Cooler", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "ct=native", 
+      "Function": "Picture setting", 
+      "Operation": "Color Temperature-lamp native", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "ct=?", 
+      "Function": "Picture setting", 
+      "Operation": "Color Temperature Status", 
+      "Support": "YES", 
+      "Type": "Read"
+    }, 
+    {
+      "ASCII": "asp=4:3", 
+      "Function": "Picture setting", 
+      "Operation": "Aspect 4:3", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "asp=16:9", 
+      "Function": "Picture setting", 
+      "Operation": "Aspect 16:9", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "asp=16:10", 
+      "Function": "Picture setting", 
+      "Operation": "Aspect 16:10", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "asp=AUTO", 
+      "Function": "Picture setting", 
+      "Operation": "Aspect Auto", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "asp=REAL", 
+      "Function": "Picture setting", 
+      "Operation": "Aspect Real", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "asp=LBOX", 
+      "Function": "Picture setting", 
+      "Operation": "Aspect Letterbox", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "asp=WIDE", 
+      "Function": "Picture setting", 
+      "Operation": "Aspect Wide", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "asp=ANAM", 
+      "Function": "Picture setting", 
+      "Operation": "Aspect Anamorphic", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "asp=5:4", 
+      "Function": "Picture setting", 
+      "Operation": "Aspect 5:4", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "asp=1.88:1", 
+      "Function": "Picture setting", 
+      "Operation": "Aspect 1.88", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "asp=2.35:1", 
+      "Function": "Picture setting", 
+      "Operation": "Aspect 2.35", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "asp=?", 
+      "Function": "Picture setting", 
+      "Operation": "Aspect Status", 
+      "Support": "YES", 
+      "Type": "Read"
+    }, 
+    {
+      "ASCII": "zoomI", 
+      "Function": "Picture setting", 
+      "Operation": "Digital Zoom In", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "zoomO", 
+      "Function": "Picture setting", 
+      "Operation": "Digital Zoom out", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "auto", 
+      "Function": "Picture setting", 
+      "Operation": "Auto", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "BC=on", 
+      "Function": "Picture setting", 
+      "Operation": "Brilliant color on", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "BC=off", 
+      "Function": "Picture setting", 
+      "Operation": "Brilliant color off", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "BC=?", 
+      "Function": "Picture setting", 
+      "Operation": "Brilliant color status", 
+      "Support": "NO", 
+      "Type": "Read"
+    }
+  ], 
+  "Power": [
+    {
+      "ASCII": "pow=on", 
+      "Function": "Power", 
+      "Operation": "Power On", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "pow=off", 
+      "Function": "Power", 
+      "Operation": "Power off", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "pow=?", 
+      "Function": "Power", 
+      "Operation": "Power Status", 
+      "Support": "YES", 
+      "Type": "Read"
+    }
+  ], 
+  "Source selection": [
+    {
+      "ASCII": "sour=RGB", 
+      "Function": "Source selection", 
+      "Operation": "COMPUTER/YPbPr", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "sour=RGB2", 
+      "Function": "Source selection", 
+      "Operation": "COMPUTER 2/YPbPr2", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "sour=YPbr", 
+      "Function": "Source selection", 
+      "Operation": "Component", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "sour=ypbr2", 
+      "Function": "Source selection", 
+      "Operation": "Component2", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "sour=dviA", 
+      "Function": "Source selection", 
+      "Operation": "DVI-A", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "sour=dvid", 
+      "Function": "Source selection", 
+      "Operation": "DVI-D", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "sour=hdmi", 
+      "Function": "Source selection", 
+      "Operation": "HDMI", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "sour=hdmi2", 
+      "Function": "Source selection", 
+      "Operation": "HDMI 2", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "sour=vid", 
+      "Function": "Source selection", 
+      "Operation": "Composite", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "sour=svid", 
+      "Function": "Source selection", 
+      "Operation": "S-Video", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "sour=network", 
+      "Function": "Source selection", 
+      "Operation": "Network", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "sour=usbdisplay", 
+      "Function": "Source selection", 
+      "Operation": "USB Display", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "sour=usbreader", 
+      "Function": "Source selection", 
+      "Operation": "USB Reader", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "sour=wireless", 
+      "Function": "Source selection", 
+      "Operation": "Wireless", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "sour=dp", 
+      "Function": "Source selection", 
+      "Operation": "DisplayPort", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "sour=hdconnect", 
+      "Function": "Source selection", 
+      "Operation": "HD Connect", 
+      "Support": "NO", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "sour=hdbaset", 
+      "Function": "Source selection", 
+      "Operation": "HDBaseT", 
+      "Support": "YES", 
+      "Type": "Write"
+    }, 
+    {
+      "ASCII": "sour=?", 
+      "Function": "Source selection", 
+      "Operation": "Current source", 
+      "Support": "YES", 
+      "Type": "Read"
+    }
+  ]
+}

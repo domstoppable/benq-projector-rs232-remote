@@ -1,0 +1,24 @@
+{
+	"FAUXMO": {
+		"ip_address": "auto"
+	},
+	"PLUGINS": {
+		"SimpleHTTPPlugin": {
+			"DEVICES": [
+				{
+					"port": 12340,
+					"on_cmd": "http://localhost:5000/do/pow%3Don",
+					"off_cmd": "http://localhost:5000/do/pow%3Doff",
+					"method": "GET",
+					"name": "Projector"
+				},{
+					"port": 12341,
+					"on_cmd": "http://localhost:5000/do/menu%3Doff",
+					"off_cmd": "http://localhost:5000/do/menu%3Doff",
+					"method": "GET",
+					"name": "Binge mode"
+				}
+			]
+		}
+	}
+}
