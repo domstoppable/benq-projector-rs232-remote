@@ -30,7 +30,7 @@ def manifest():
 
 @app.route('/do/<cmd>')
 def doCommand(cmd):
-	projector.send(cmd)
+	projector.do(cmd)
 	return 'ok'
 
 @app.route('/commands')
@@ -50,9 +50,13 @@ def getCommands():
 
 if __name__ == "__main__":
 	try:
-		os.system('fauxmo -c "%s" &' % (os.path.join(BASE_PATH, 'fauxmo-config.json')))
+		fauxmoPath = os.path.join(os.path.dirname(sys.executable), 'fauxmo')
+		cmd = '"%s" -c "%s" &' % (fauxmoPath, os.path.join(BASE_PATH, 'fauxmo-config.json'))
+		print("Starting fauxmo $( %s )" % cmd)
+		os.system(cmd)
 	except Exception as exc:
 		print('Failed to start fauxmo :(')
+		print(exc)
 
 
 	app.run(host='0.0.0.0')

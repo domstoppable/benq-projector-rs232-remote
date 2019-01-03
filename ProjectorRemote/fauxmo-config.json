@@ -14,9 +14,45 @@
 				},{
 					"port": 12341,
 					"on_cmd": "http://localhost:5000/do/menu%3Doff",
-					"off_cmd": "http://localhost:5000/do/menu%3Doff",
+					"off_cmd": "http://localhost:5000/do/pow%3Doff",
 					"method": "GET",
 					"name": "Binge mode"
+				},{
+					"port": 12342,
+					"on_cmd": "http://localhost:5000/do/hdmi",
+					"off_cmd": "http://localhost:5000/do/pow%3Doff",
+					"method": "GET",
+					"name": "HDMI"
+				},{
+					"port": 12343,
+					"on_cmd": "http://localhost:5000/do/hdmi2",
+					"off_cmd": "http://localhost:5000/do/pow%3Doff",
+					"method": "GET",
+					"name": "HDMI 2"
+				},{
+					"port": 12344,
+					"on_cmd": "http://localhost:5000/do/component",
+					"off_cmd": "http://localhost:5000/do/pow%3Doff",
+					"method": "GET",
+					"name": "Component"
+				},{
+					"port": 12345,
+					"on_cmd": "http://localhost:5000/do/composite",
+					"off_cmd": "http://localhost:5000/do/pow%3Doff",
+					"method": "GET",
+					"name": "Composite"
+				},{
+					"port": 12346,
+					"on_cmd": "http://localhost:5000/do/svideo",
+					"off_cmd": "http://localhost:5000/do/pow%3Doff",
+					"method": "GET",
+					"name": "S Video"
+				},{
+					"port": 12347,
+					"on_cmd": "http://localhost:5000/do/vga",
+					"off_cmd": "http://localhost:5000/do/pow%3Doff",
+					"method": "GET",
+					"name": "VGA"
 				}
 			]
 		}
